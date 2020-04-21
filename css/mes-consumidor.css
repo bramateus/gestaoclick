@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+.banner-image {
+	font-family: Maven Pro;
+}
+
+.banner-area.banner-image.horizontal {
+	/*height: 750px;*/
+	height: 100vh;
+}
+
+.banner-image .frases-faixa-vermelha {
+	margin: 30% 0% 0% 29%;
+    /* top: 33%; */
+    /* position: absolute; */
+	/* right: 4%; */
+}
+
+.banner-image .titulo-destaque {
+	font-family: Maven Pro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 18px;
+	align-items: center;
+	/*text-align: left;*/
+	letter-spacing: 1.199034px;
+	color: #EC9A00;
+	text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.banner-image .sub-titulo-destaque {
+	font-family: Maven Pro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 37px;
+	align-items: center;
+	text-align: right;
+	letter-spacing: 0.743034px;
+	color: #FFFFFF;
+	position: absolute;
+	right: 4%;
+	top: 30px;
+}
+
+.banner-image .btn-garantir {
+	display: block;
+	border: solid 2px #2E8A0F;
+	background-color: #2E8A0F;
+    box-shadow: 0px 0px 10px rgba(13, 28, 40, 0.22);
+	position: absolute;
+	text-align: center;
+	top: 140px;
+	right: 4%;
+	width: 362px;
+	height: 61px;
+	border-radius: 1px;
+}
+
+.banner-image .btn-garantir:hover {
+	border: solid 2px green;
+	background-color: green;
+	text-decoration: none;
+}
+
+/* .banner-image .btn-garantir a {
+	color: #fff;
+} */
+
+/* .banner-image .botao-principal {
+    text-align: center;
+    margin-top: 340px;
+} */
+
+.banner-image .desconto-anual {
+	font-family: Maven Pro;
+	font-size: 13px;
+    color: #FFFFFF;
+	text-align: right;
+	margin: 190px 26px 0px 0px;
+}
+
+.banner-area.banner-image {
+	background-image: url('../site/img/banner/banner-site.jpg');
+	background-position: center!important;
+}
+
+
+
+
+
+@media (max-width: 1170px) {
+	/* .garantir-desconto {
+		top: 11px!important;
+	} */
+
+	
+
+	.icon-img-section-2 {
+        width: 25%;
+        margin-bottom: 15px
+    }
+
+
+	.banner-image .botao-principal {
+		margin-top: 290px;
+	}
+	/* .banner-image .frases-faixa-vermelha {
+		margin-top: 95px;
+	} */
+	/* .banner-image .btn-garantir {
+		width: 340px;
+		height: 50px;
+		border-radius: 3px;
+		border: solid 2px #2E8A0F;
+		background-color: #2E8A0F;
+		margin-top: 12px;
+	} */
+
+}
+
+@media (max-width: 994px) {
+	/* .banner-image .sub-titulo-destaque {
+		left: 74px;
+	} */
+	.banner-image .botao-principal {
+		left: 25px!important;
+	}
+}
+
+@media (max-width: 988px) {
+	/* .banner-image .sub-titulo-destaque {
+		left: -52px;
+	} */
+	/* .banner-image .frases-faixa-vermelha {
+		left: -64px;
+	} */
+}
+
+@media (max-width: 767px) {
+    .banner-image .titulo-destaque{
+		font-family: Maven Pro;
+        text-align: center;
+        color:#FFF;
+		font-size: 28px;
+		line-height: 24px;
+    }
+	.banner-image .botao-principal {
+        top: 20px;
+        margin-top:230px;
+	}
+	.banner-area.banner-image {
+		/*background-image: url('/site/img/banner/banner-site-marco-2020.jpg');*/
+		background-position: right top!important;
+	}
+	.banner-image .frases-faixa-vermelha {
+		margin: -7% 0% 0% 0%;
+	}
+	.banner-image .sub-titulo-destaque {
+		font-family: Maven Pro;
+		font-size: 15px;
+		line-height: 30px;
+		text-align: center;
+		color: #EC9A00;
+		top: 58%;
+		/* border: solid 1px red; */
+		width: max-content;
+		/*right: 0px;*/
+	}	
+	.banner-image .sub-titulo-destaque-mobile {
+		left: -25px;
+		font-size: 18px;
+		width: 315px;
+		margin-top: 1px;
+		line-height: 27px;
+        font-weight: normal;
+        top:92px;
+		color: #F5A623;
+		
+		text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.15);
+		margin-top: 17px;
+		text-align: center;
+		position: relative;		
+	}
+	.banner-image .desconto-anual {
+        font-size: 13px;
+        top: 20px;
+        line-height: 17px;
+        margin-top:12px;
+		text-align: center;
+		margin-right: 0px;
+	}
+	.banner-image .btn-garantir {
+		top: 420px;
+		right: 1px;
+		width: 100%;
+    }
+    .circulo-vermelho-mobile{
+        background-image: url('../site/img/banner/banner-mobile.png');
+		background-position: center!important;
+        background-repeat: no-repeat;
+        height: 233px;
+    }
+}
+
+.banner-image .banner-text {
+	padding-top: 15.3%;
+}
+
+.banner-area.banner-image:after {
+	background-color: transparent!important;
+}
+
+.banner-area .banner-text h1 {
+	font-size: 39px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.12;
+	letter-spacing: normal;
+	text-align: left;
+	color: #a4dcff;
+	text-transform: none;
+}
+
+.banner-area .titulo-small {
+	text-shadow: 0 0 7px rgba(0, 0, 0, 0.57);
+	font-size: 20px;
+	text-align: left;
+	color: #ffffff;
+}
+
+/* .btn-garantir {
+	width: 377px;
+	height: 63px;
+	border-radius: 3px;
+	border: solid 2px #fdd100;
+	background-color: #fdd100;
+} */
+
+/* .btn-garantir:hover {
+	border: solid 2px #eac200;
+	background-color: #eac200;
+} */
+
+.garantir-desconto {
+	font-size: 16px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	top: 18px;
+	position: relative;
+	color: #fff;
+}
+
+a .garantir-desconto:hover {
+	color: #fff;
+	text-decoration: none!important;
+}
+
+.pegar-desconto {
+	text-shadow: 0 0 7px rgba(0, 0, 0, 0.57);
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #a7a7a7;
+	text-decoration: underline;
+}
+
+.pegar-desconto:hover {
+	color: #469E28;
+}
+
+.label-1 {
+	margin-top: 75px;
+	font-size: 25px;
+	color: #fff;
+}
+
+.asterisco {
+	color: #fff!important;
+	top: -24px;
+	font-size: 23px;
+	position: relative;
+}
+
+@media (max-width: 767px) {
+	.banner-area.banner-image.horizontal {
+		height: 760px;
+	}
+	.banner-text h1 {
+		font-size: 26px!important;
+		line-height: 38px;
+		margin-bottom: 20px;
+	}
+	.banner-image .banner-text {
+		padding-top: 45%;
+	}
+	.btn-garantir {
+		width: 290px;
+		height: 49px;
+	}
+	.garantir-desconto {
+		font-size: 15px;
+	}
+	.asterisco {
+		top: -8px;
+	}
+
+
+
+
+
+	.banner-section-2 {
+
+	}
+
+}
+
+@media (max-width: 426px) {
+	.banner-section-2 {
+    	display: none;
+	}
+
+	.area-box {
+    	margin: 5px;
+    	display: inline-block; 
+    	cursor: pointer;
+    	padding: 15px; 
+    	transition: 1s;
+    	box-shadow: 0 0px 4px 0px rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	.icon-img-section-2 {
+		width: 50%;
+		margin-bottom: 15px
+	}
+
+	#main-menu.stick {
+        /*background: #2d3e50 none repeat scroll 0 0;*/
+        background: #eee none repeat scroll 0 0 !important;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+        padding: 5% 0%;
+        position: fixed;
+        top: 0
+    }
+}
+
+
+
+
+@media (min-width: 1919px) {
+    .banner-image .frases-faixa-vermelha {
+        margin: 45% 0% 0% 29%;
+        /* top: 33%; */
+        /* position: absolute; */
+        /* right: 4%; */
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1169px) {
+
+	.banner-image .sub-titulo-destaque {
+	    font-family: Maven Pro;
+	    font-style: normal;
+	    font-weight: 500;
+	    font-size: 18px;
+	    line-height: 37px;
+	    align-items: center;
+	    text-align: right;
+	    letter-spacing: 0.843034px;
+	    color: #FFFFFF;
+	    position: absolute;
+	    /*right: 4%;*/
+	    top: 35px;
+	}
+
+}
